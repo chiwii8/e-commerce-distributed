@@ -1,0 +1,11 @@
+server:
+  port: 8081 # Corre en un puerto diferente para no chocar
+
+spring:
+  application:
+    name: product-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
